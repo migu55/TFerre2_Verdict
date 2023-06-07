@@ -12,7 +12,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #773000;
+    background: #631c00;
     overflow: hidden;
     animation: bgs 25s;
 }
@@ -46,12 +46,12 @@ body {
         background: #FFFFFF;
     }
 
-    40%, 60% {
+    43%, 60% {
         background: #242424;
     }
 
     61%, 100% {
-        background: #773000;
+        background: #631c00;
     }
 
 
@@ -176,7 +176,7 @@ body {
 /* Text Flashes */
 
 /* Group Shot */
-.group {
+.invis {
     opacity: 0%;
 }
 
@@ -379,7 +379,7 @@ body {
 /* Spotlights */
 #spot_left {
     position: absolute;
-    height: 35vh;
+    height: 45vh;
     top: 0%;
     left: 0%;
     animation: spotleft 15s linear;
@@ -401,14 +401,24 @@ body {
         left: 125%;
         opacity: 100%;
         top: 5%;
+        transform: rotate(0deg);
     }
 
     45% {
-        left: 100%;
+        left: 80%;
         top: 30%;
+        transform: rotate(180deg);
     }
 
-    59% {
+    55% {
+        transform: rotate(180deg);
+    }
+
+    58% {
+        transform: rotate(0deg);
+    }
+
+    59.9% {
         opacity: 100%;
         left: 40%;
         top: 30%;
@@ -421,7 +431,7 @@ body {
 
 #spot_right {
     position: absolute;
-    height: 35vh;
+    height: 45vh;
     top: 0%;
     right: 0%;
     animation: spotright 15s linear;
@@ -436,21 +446,31 @@ body {
     35% {
         right: -25%;
         opacity: 100%;
-        top: 60%;
+        top: 50%;
     }
 
     44.99% {
         right: 125%;
         opacity: 100%;
-        top: 60%;
+        top: 50%;
+        transform: rotate(0deg);
     }
 
     45% {
-        right: 100%;
+        right: 80%;
         top: 30%;
+        transform: rotate(180deg);
     }
 
-    59% {
+    55% {
+        transform: rotate(180deg);
+    }
+
+    58% {
+        transform: rotate(0deg);
+    }
+
+    59.9% {
         opacity: 100%;
         right: 40%;
         top: 30%;
@@ -473,7 +493,7 @@ body {
 }
 
 @keyframes logo {
-    0%, 55% {
+    0%, 57.5% {
         opacity: 0%;
     }
 
@@ -499,7 +519,7 @@ body {
 @keyframes pbf {
     0%, 40% {
         opacity: 0%;
-        left: -5%;
+        left: 0%;
     }
 
     45% {
@@ -531,7 +551,7 @@ body {
 
 #name {
     position: relative;
-    margin: 0;
+    margin-bottom: -5%;
     max-width: 100%;
     max-height: 100vh;
     object-fit: contain;
@@ -587,7 +607,7 @@ body {
 
 #break1 {
     position: relative;
-    margin: -5% 0 -15% 0;
+    margin: -25% 0 -15% 0;
     object-fit: contain;
     object-position: 50% 50%;
     width: 60vh;
