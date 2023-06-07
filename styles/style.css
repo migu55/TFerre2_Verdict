@@ -175,11 +175,11 @@ body {
 }
 /* Text Flashes */
 
-/* Group Shot */
 .invis {
     opacity: 0%;
 }
 
+/* Group Shot */
 #char_r2 {
     height: 80vh;
     left: 65%;
@@ -347,21 +347,17 @@ body {
     right: 0%;
     margin: 0 auto;
     bottom: 0%;
-    animation: mid 10s linear;
+    animation: mid 10s;
 }
 
 @keyframes mid {
     0%, 25% {
-        bottom: -70%;
+        bottom: -50%;
         opacity: 0%;
     }
 
-    30%, 35% {
+    30%, 39% {
         bottom: 0%;
-        opacity: 100%;
-    }
-
-    39% {
         opacity: 100%;
     }
 
@@ -490,6 +486,7 @@ body {
     top: 0;
     height: 35vh;
     animation: logo 15s;
+    opacity: 0%;
 }
 
 @keyframes logo {
