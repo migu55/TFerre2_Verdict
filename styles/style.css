@@ -86,7 +86,7 @@ body {
 
     2.5% {
         opacity: 80%;
-        top: 35%;
+        top: 37%;
     }
 
     5%, 7.5% {
@@ -101,7 +101,7 @@ body {
 
     10% {
         opacity: 80%;
-        top: 35%;
+        top: 37%;
     }
 
     12.5%, 15% {
@@ -117,7 +117,8 @@ body {
 
 #jp {
     animation: jpf 5s;
-    font-size: 5vw;
+    font-size: 5vh;
+    color: #FFFFFF;
 }
 
 #jp::before {
@@ -128,14 +129,12 @@ body {
 
 @keyframes jpf {
     0%, 7.49% {
-        color: #FFFFFF;
+        content: "ありがとう、ミッドナイト。";
         opacity: 100%;
-        content: "ZERO";
     }
 
     7.5%, 14.99% {
-        color: #FFE95F;
-        content: "ONE";
+        content: "ありがとう、サレア。";
         opacity: 100%;
     }
 
@@ -143,25 +142,27 @@ body {
         opacity: 0%;
     }
 }
+
 #en {
     animation: enf 5s;
-    content: "";
-    font-size: 2.5vw;
+    font-size: 2vh;
+    color: #FFFFFF;
 }
+
 #en::before {
     content: "";
     animation: enf 5s;
 }
+
 @keyframes enf {
     0%, 7.49% {
+        content: "(Thank you, Midnight.)";
         color: #FFFFFF;
-        opacity: 100%;
-        content: "ZERO";
+        opacity: 100%;  
     }
 
     7.5%, 14.99% {
-        color: #FFE95F;
-        content: "ONE";
+        content: "(Thank you, Sarea.)";
         opacity: 100%;
     }
 
