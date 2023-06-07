@@ -12,15 +12,49 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #777777;
+    background: #773000;
     overflow: hidden;
-    /* animation: bgs 5.45s; */
+    animation: bgs 25s;
 }
 
 @keyframes bgs {
-    0% {
+    0%, 12.1% {
         background: #000000;
     }
+
+    16% {
+        background: rgb(78, 31, 0);
+    }
+
+    17%, 17.3% {
+        background: rgb(201, 201, 201);
+    }
+
+    17.4% {
+        background: #000000;
+    }
+
+    36% {
+        background: #323232;
+    }
+
+    36.1%, 39% {
+        background: #000000;
+    }
+
+    39.5% {
+        background: #FFFFFF;
+    }
+
+    40%, 60% {
+        background: #242424;
+    }
+
+    61%, 100% {
+        background: #773000;
+    }
+
+
 
     100% {
 
@@ -455,22 +489,26 @@ body {
 
 /* Profile */
 #playby {
-    background-size: contain;
-    background-position: left;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     position: absolute;
-    background-repeat: no-repeat;
-    left: 0%;
-    /* animation: pbf 5.45s; */
+    left: 5%;
+    animation: pbf 25s;
+    opacity: 100%;
 }
 
 @keyframes pbf {
-    0% {
+    0%, 40% {
+        opacity: 0%;
+        left: -5%;
+    }
+
+    45% {
+        opacity: 100%;
+        left: 5%
     }
 
     100% {
-
+        opacity: 100%;
     }
     
 }
@@ -493,7 +531,7 @@ body {
 
 #name {
     position: relative;
-    margin: 0% 0 -5% 0;
+    margin: 0;
     max-width: 100%;
     max-height: 100vh;
     object-fit: contain;
@@ -501,46 +539,59 @@ body {
     width: 80vh;
     font-size: 5vw;
     color: #FFE32C;
-    /* animation: namef 10.9s; */
+    animation: namef 25s;
 }
 
 @keyframes namef {
-    0% {
+    0%, 45% {
+        top: -10%;
+        opacity: 0%;
+    }
 
+    50% {
+        top: 0%;
+        opacity: 100%;
     }
 
     100% {
-
+        opacity: 100%;
     }
     
 }
 
 #text {
+    position: relative;
     font-size: 2vw;
     font-family: 'Edu TAS Beginner', cursive;
     color: #FF81C2;
-    /* animation: descf 10.9s; */
     text-align: center;
+    animation: descf 25s;
 }
 
 @keyframes descf {
-    0% {
+    0%, 50% {
+        bottom: -40%;
+        opacity: 0%;
+    }
 
+    55% {
+        bottom: 0%;
+        opacity: 100%;
     }
 
     100% {
-
+        opacity: 100%;
     }
     
 }
 
 #break1 {
     position: relative;
-    margin: -35% 0 -15% 0;
+    margin: -5% 0 -15% 0;
     object-fit: contain;
     object-position: 50% 50%;
     width: 60vh;
-    /* animation: brf 10.9s; */
+    animation: brf 25s;
 }
 
 #break2 {
@@ -549,16 +600,22 @@ body {
     object-fit: contain;
     object-position: 50% 50%;
     width: 40vh;
-    /* animation: brf 10.9s; */
+    animation: brf 25s;
 }
 
 @keyframes brf {
-    0% {
+    0%, 55% {
+        right: -10%;
+        opacity: 0%;
+    }
 
+    60% {
+        right: 0%;
+        opacity: 100%;
     }
 
     100% {
-
+        opacity: 100%;
     }
     
 }
