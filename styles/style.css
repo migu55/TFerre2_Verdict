@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
 html {
     height: 100%;
@@ -18,19 +18,19 @@ body {
 }
 
 @keyframes bgs {
-    0%, 12.1% {
+    0%, 12% {
         background: #000000;
     }
 
     16% {
-        background: rgb(78, 31, 0);
+        background: rgb(106, 42, 0);
     }
 
-    17%, 17.3% {
+    16.2%, 16.7% {
         background: rgb(201, 201, 201);
     }
 
-    17.4% {
+    17.8% {
         background: #000000;
     }
 
@@ -42,7 +42,7 @@ body {
         background: #000000;
     }
 
-    39.5% {
+    39.5%, 40.5% {
         background: #FFFFFF;
     }
 
@@ -282,11 +282,11 @@ body {
 
     30% {
         opacity: 100%;
-        left: 45%;
+        left: 50%;
     }
 
     35%, 39% {
-        left: 50%;
+        left: 55%;
         opacity: 100%;
     }
 
@@ -322,11 +322,11 @@ body {
 
     30% {
         opacity: 100%;
-        right: 45%;
+        right: 50%;
     }
 
     35%, 39% {
-        right: 50%;
+        right: 55%;
         opacity: 100%;
     }
 
@@ -580,7 +580,7 @@ body {
 #text {
     position: relative;
     font-size: 2vw;
-    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Solitreo', cursive;
     color: #FF81C2;
     text-align: center;
     animation: descf 25s;
