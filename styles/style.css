@@ -357,7 +357,7 @@ body {
         opacity: 0%;
     }
 
-    30%, 39% {
+    33%, 39% {
         bottom: 0%;
         opacity: 100%;
     }
@@ -417,7 +417,7 @@ body {
 
     59.9% {
         opacity: 100%;
-        left: 40%;
+        left: 38%;
         top: 30%;
     }
 
@@ -469,7 +469,7 @@ body {
 
     59.9% {
         opacity: 100%;
-        right: 40%;
+        right: 38%;
         top: 30%;
     }
 
@@ -579,7 +579,7 @@ body {
 
 #text {
     position: relative;
-    font-size: 2vw;
+    font-size: 1.2vw;
     font-family: 'Solitreo', cursive;
     color: #FF81C2;
     text-align: center;
